@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="An electrical and electronic engineering student portfolio featuring a traction motor project and industry placements.">
+<title>Yijian LIN | Project and Experience</title>
+<style>
+:root{color-scheme:light;--paper:#f4f1e7;--green:#183e35;--ink:#1e3029;--muted:#4a5f54;--rule:#c1cbbd;--tint:#e6ece1}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Instrument Sans",system-ui,sans-serif;line-height:1.65}
+.layout{max-width:73rem;margin:auto;display:grid;grid-template-columns:minmax(13rem,1fr) minmax(0,3fr);min-height:100vh}
+aside{padding:3.1rem 1.8rem 2rem;border-right:1px solid var(--rule);background:var(--tint)}.side{position:sticky;top:3.1rem}.mark{font-family:Georgia,serif;font-size:1.45rem;line-height:1.15;margin:0 0 .65rem;color:var(--green)}.side p:not(.mark){max-width:15rem;font-size:.88rem;margin-bottom:1.5rem}
+nav{display:flex;flex-direction:column;gap:.2rem}a{color:var(--green);text-underline-offset:.25em}nav a{font-weight:650;width:fit-content;padding:.25rem 0}
+main{padding:clamp(1.25rem,5vw,4.6rem)}h1,h2{font-family:Georgia,serif;color:var(--green);font-weight:normal;line-height:1.10}h1{font-size:clamp(2.2rem,5vw,4.35rem);letter-spacing:-.06em;margin:.25rem 0 1rem;max-width:12ch}h2{font-size:clamp(1.6rem,3vw,2.2rem);letter-spacing:-.03em;margin:.15rem 0 1.15rem}h3{margin:.2rem 0 .35rem;font-size:1.12rem;line-height:1.4}
+p{margin-top:0;color:var(--muted);max-width:60ch}.intro p{font-size:1.08rem}.intro{padding-bottom:1.75rem}
+.project-link{display:inline-block;padding:.62rem 1rem;background:var(--green);color:#fff;border:1px solid var(--green);border-radius:.35rem;font-weight:650;text-decoration:none}.project-link:hover{background:#285347;text-decoration:underline}
+section{border-top:1px solid var(--rule);padding-block:1.65rem;scroll-margin-top:1.2rem}
+details{padding:.75rem 1rem;border:1px solid var(--rule);border-radius:.35rem;background:var(--tint)}summary{font-weight:680;color:var(--green);cursor:pointer}details p{margin:.65rem 0 .1rem}
+.experience{margin:0;padding:0;list-style:none}.experience li{display:grid;grid-template-columns:1.25fr 1fr;gap:.3rem .9rem;padding:.68rem 0;border-top:1px solid var(--rule)}.experience span{color:var(--muted)}.experience li:last-child{border-bottom:1px solid var(--rule)}
+.skills{padding-left:1.1rem;display:grid;grid-template-columns:1fr 1fr;gap:.3rem 1rem}.skip{position:absolute;top:-5rem;left:.7rem;background:var(--green);color:#fff;padding:.45rem;border-radius:.2rem;z-index:3}.skip:focus{top:.45rem}a:focus-visible,summary:focus-visible{outline:2px solid var(--green);outline-offset:4px}footer{font-size:.9rem}
+@media(max-width:720px){.layout{display:block}aside{padding:1rem 1.25rem;border-right:0;border-bottom:1px solid var(--rule)}.side{position:static}.side p:not(.mark){display:none}nav{flex-wrap:wrap;flex-direction:row;gap:.2rem 1rem}main{padding-top:1.65rem}}
+@media(max-width:420px){.experience li,.skills{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="layout" id="top">
+  <aside>
+    <div class="side">
+      <p class="mark">Engineering portfolio</p>
+      <p>University of Nottingham Ningbo China</p>
+      <nav aria-label="Page sections"><a href="#project">Project</a><a href="#experience">Experience</a><a href="#skills">Skills</a></nav>
+    </div>
+  </aside>
+  <main id="main">
+    <header class="intro">
+      <h1>Yijian LIN</h1>
+      <p>I’m a final-year Electrical and Electronic Engineering student at the University of Nottingham Ningbo China. My final-year project looks at how vehicle drive cycles can be used to study efficiency and losses in an electric vehicle traction motor.</p>
+      <a class="project-link" href="#project">View my final-year project</a>
+    </header>
+    <section id="project">
+      <h2>Final-year project</h2>
+      <h3>Drive-Cycle-Based Efficiency Mapping and Loss Modelling of an EV Traction Motor</h3>
+      <p>The project links changes in vehicle speed over a drive cycle to the motor’s operating conditions. It examines where the motor operates on an efficiency map and how motor losses vary across those conditions.</p>
+      <details><summary>Read the modelling approach</summary><p>The planned workflow starts with vehicle speed profiles from selected drive cycles. These profiles will be used to estimate motor speed and torque over time. The resulting operating points will support efficiency mapping and loss modelling.</p></details>
+    </section>
+    <section id="experience">
+      <h2>Industry experience</h2>
+      <ul class="experience">
+        <li><strong>Siemens</strong><span>Data analysis internship</span></li>
+        <li><strong>Westinghouse Electric (Hangzhou)</strong><span>Electrical automation internship</span></li>
+        <li><strong>Ningbo Baige Intelligent Technology</strong><span>Electrical automation internship</span></li>
+      </ul>
+    </section>
+    <section id="skills">
+      <h2>Skills and interests</h2>
+      <ul class="skills"><li>Data analysis</li><li>Electrical automation</li><li>Vehicle drive cycles</li><li>Traction motor modelling</li></ul>
+    </section>
+    <footer><a href="#top">Back to top</a></footer>
+  </main>
+</div>
+</body>
+</html>
